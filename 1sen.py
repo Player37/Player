@@ -3,9 +3,9 @@ print(g)
 if g>100:
     print("grade should be less than 101...plz try again!!!")
 elif g>=90:
-    print("a")
+    print("a")                  # if number is greater than or equal to 90 it prints a grade
 elif g>=80:
-    print("b")
+    print("b")                   #
 elif g>=70:
     print("C")
 elif g>=60:
@@ -15,4 +15,4 @@ elif g>=50:
 else:
     print("F")
     
-# it give sus grades depending on the marks given
+
