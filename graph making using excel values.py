@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+!/usr/bin/python3
 import xlrd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -9,7 +9,7 @@ x = [first_sheet.cell_value(i, 0) for i in range(first_sheet.nrows)]
 y = [first_sheet.cell_value(i, 1) for i in range(first_sheet.nrows)]
 plt.xlabel('v')
 plt.ylabel('Ph')
-plt.title('vol vs ph curve')
+plt.title('v vs ph curve')
 plt.ylim(0,15)
 plt.xlim(0,30)
 plt.plot(x,y)
