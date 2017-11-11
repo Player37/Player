@@ -5,7 +5,7 @@ for i in a:
        print("greater than 10:")
        print(i)
     else:
-        print("lesser tha 10 :")
+        print("lesser than 10 :")
         print(i)
         
        
